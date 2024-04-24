@@ -1,29 +1,7 @@
 import { Before, Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 
-import DocQaGridPage from "../../pages/Retrieval/DocumentQA/documentQAGridPage";
-import ServiceOrganization from "../../pages/ServiceOrganization/serviceOrganization";
-import adminProject1 from "../../pages/AdminProjects/adminProjects";
-import myDocument from "../../pages/MyDocument/myDocument";
-import chartLakeMembers from "../../pages/ChartLakeMembers/chartLakeMembers";
-import docQaProjectSetting from "../../pages/DocQaProjectSetting/docQaProjectSetting";
-import chaseQuery from "../../pages/ChaseQuery/chaseQuery";
-import myAddresses from "../../pages/MyAddresses/myAddress";
-import myChases from "../../pages/MyChases/myChases";
-import specialHandling from "../../pages/SpecialHandling/specialHandling";
-import invoices from "../../pages/Invoices/invoices";
-import invoiceApproval from "../../pages/InvoiceApproval/invoiceApproval";
-import bulkAction from "../../pages/BulkAction/bulkAction";
-import documentIntake from "../../pages/DocumentIntake/documentIntake";
-import abaMeasure from "../../pages/HedisMeasures/abaMeasure";
-import awcMeasure from "../../pages/HedisMeasures/awcMeasure";
-import bcsMeasure from "../../pages/HedisMeasures/bcsMeasure";
-import bcseMeasure from "../../pages/HedisMeasures/bcsEMeasure";
-import a1c9Measure from "../../pages/HedisMeasures/a1c9Measure";
-import eedMeasure from "../../pages/HedisMeasures/eedMeasure";
-import cbpMeasure from "../../pages/HedisMeasures/cbpMeasure";
-import trcMeasure from "../../pages/HedisMeasures/trcMeasure";
-import w34Measure from "../../pages/HedisMeasures/w34Measure";
+
 import w15Measure from "../../pages/W15Measure/w15Measure";
 
 
@@ -33,33 +11,10 @@ import w15Measure from "../../pages/W15Measure/w15Measure";
 
 
 
-const emrRepPage = require('../../pages/Retrieval/EMR/EMRGridPage')
+
 const reveleerHomePage = require('../../pages/reveleerHomePage')
 const reveleerLoginPage = require('../../pages/reveleerLoginPage')
-const emrAddressDetailsPage = require('../../pages/Retrieval/EMR/EMRAddressDetailsPage')
-const docqagridpage = new DocQaGridPage()
-const serviceOrganization = new ServiceOrganization()
-const admin2 = new adminProject1()
-const document = new myDocument()
-const chartLake = new chartLakeMembers()
-const docQaProject = new docQaProjectSetting()
-const chaseQuery1 = new chaseQuery()
-const myAddresses1 = new myAddresses()
-const myChases1 = new myChases()
-const specialHandling1 = new specialHandling()
-const invoicesPage = new invoices()
-const invoiceApprovalPage = new invoiceApproval()
-const bulkActionPage = new bulkAction()
-const documentIntakePage = new documentIntake()
-const abaMeasurePage = new abaMeasure()
-const awcMeasurePage=new awcMeasure()
-const bcsMeasurePage=new bcsMeasure()
-const bcseMeasurePage=new bcseMeasure()
-const a1c9MeasurePage= new a1c9Measure()
-const eedMeasurePage= new eedMeasure()
-const cbpMeasurePage=new cbpMeasure()
-const trcMeasurePage=new trcMeasure()
-const w34MeasurePage=new w34Measure()
+
 const w15MeasurePage=new w15Measure()
 
 
