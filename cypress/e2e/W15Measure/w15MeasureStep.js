@@ -14,8 +14,21 @@ import w15Measure from "../../pages/W15Measure/w15Measure";
 
 const reveleerHomePage = require('../../pages/reveleerHomePage')
 const reveleerLoginPage = require('../../pages/reveleerLoginPage')
+// import w15Measure from "../../pages/W15Measure/w15Measure";
+import abaMeasure from "../../pages/abaMeasure";
+import a1c9Measure from "../../pages/a1c9Measure";
+import bcseMeasure from "../../pages/bcseMeasure";
+import cbpMeasure from "../../pages/cbpMeasure";
+import eedMeasure from "../../pages/eedMeasure";
+import w34Measure from "../../pages/w34Measure";
 
 const w15MeasurePage=new w15Measure()
+const abaMeasurePage = new abaMeasure()
+const bcseMeasurePage=new bcseMeasure()
+const a1c9MeasurePage= new a1c9Measure()
+const eedMeasurePage= new eedMeasure()
+const cbpMeasurePage=new cbpMeasure()
+const w34MeasurePage=new w34Measure()
 
 
 
@@ -27,16 +40,17 @@ const w15MeasurePage=new w15Measure()
 
 
 Before(() => {
-    cy.visitAndSetViewport(); // Call your custom command
+    cy.viewport(1280, 720)
+    cy.visit('https://uat.reveleer.com/login')
     cy.fixture("credentials").then((credentials) => {
-        const user = credentials[8];
-        cy.title().should('eq', user.loginPageTitle);
-        reveleerLoginPage.fillUsername(user.username);
-        reveleerLoginPage.fillPassword(user.password);
-        reveleerLoginPage.clickOnLoginButton();
-        reveleerHomePage.elements.loginUserName().should('be.visible');
-    });
-});
+        const user = credentials[8]
+        cy.title().should('eq', user.loginPageTitle)
+        reveleerLoginPage.fillUsername(user.username)
+        reveleerLoginPage.fillPassword(user.password)
+        reveleerLoginPage.clickOnLoginButton()
+        reveleerHomePage.elements.loginUserName().should('be.visible')
+    })
+})
 Given('user will go to clinical tab', () => {
     a1c9MeasurePage.clickOnClincialTab()
 })

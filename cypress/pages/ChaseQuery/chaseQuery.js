@@ -192,7 +192,7 @@ class chaseQuery{
        pursuitChase:()=>cy.get('.ui-overlaypanel-content'),
        pursuitChase1:()=>cy.get('.chase-id__related-chases-popover-container > :nth-child(2) > a'),
        hedisProject:()=>cy.contains('li','QAAutomation_HEDIS_TEST'),
-       measureDropDown:()=>cy.contains('li','PSS'),
+       measureDropDown:()=>cy.contains('li','ABA'),
        createNewChaseButton:()=>cy.xpath("//span[normalize-space()='Create A New Chase']"),
        chaseIdContainer:()=>cy.get('.container-title'),
        pageDropDown: () => cy.get('.ui-paginator-left-content > .ui-inputwrapper-filled > .ui-dropdown > .ui-dropdown-trigger'),

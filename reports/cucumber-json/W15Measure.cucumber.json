@@ -1,0 +1,1084 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "W15 Measure",
+    "line": 1,
+    "id": "w15-measure",
+    "tags": [],
+    "uri": "W15Measure.feature",
+    "elements": [
+      {
+        "id": "w15-measure;verify-dob-fields",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify DOB fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "duration": 121000000,
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user will verify dob field",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;verify-that-well-child-visit-shows-different-numerators",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify that well child visit shows different Numerators",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "user will verify the numerator fields",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;verify-that-for-+ve-compliance-,all-dates-must-be-between-dob-and-dob-+-15-months.",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Verify that for +ve compliance ,all dates must be between DOB and DOB + 15 months.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "evidencePage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "11/11/1997",
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "user will fill all details of child visit",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "user will verify compliance is positive",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;verify-that-exclusion-non-compliance-shows-validation-message-if-date-entered-out-of-range",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Verify that exclusion non compliance shows validation message if date entered out of range",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "exclusiondate",
+                      "exclusionpageno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "11/11/2018",
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "user will fill exclusion data which is not in date range and will verify error message",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;verify-chase-can-be-submitted-when-the-complaince-is-+ve.",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Verify chase can be submitted when the complaince is +ve.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "evidencePage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "11/11/1997",
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "user will fill all details of child visit",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "user will verify compliance is positive",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "user will click on submit button and will verify chse is submitted",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;verify-chase-can-be-submitted-when-chase-shows--ve-compliance",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "Verify chase can be submitted when chase shows -ve compliance",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 93,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 94,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 98,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "user will fill nrc field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "user will click on submit button and will verify chse is submitted",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;veriy-that-any-chase-field-shows-a-validtaion-message-when-the-date-entered-is-outside-the-timeframe",
+        "keyword": "Scenario",
+        "line": 109,
+        "name": "Veriy that any chase field shows a validtaion message when the date entered is outside the timeframe",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 110,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 115,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 116,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "11/11/1998"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 122,
+            "name": "user will fill date out of date range and will verify error message",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "w15-measure;verify-nrc-can-be-selected-and-validated-upon-submission-when-chase-is-non-compliant",
+        "keyword": "Scenario",
+        "line": 126,
+        "name": "Verify NRC can be selected and validated upon submission when chase is non compliant",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 127,
+            "name": "user will go to clinical tab",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: cy.visitAndSetViewport is not a function\n    at eval (cypress/e2e/W15Measure/w15MeasureStep.js:30:7)\n    at eval (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:134:0)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:57313/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (http://localhost:57313/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (http://localhost:57313/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (http://localhost:57313/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (http://localhost:57313/__cypress/runner/cypress_runner.js:162210:53)\n    at $Cypress.action (http://localhost:57313/__cypress/runner/cypress_runner.js:41015:28)\n    at Runnable.run (http://localhost:57313/__cypress/runner/cypress_runner.js:144798:13)\n    at next (http://localhost:57313/__cypress/runner/cypress_runner.js:154803:10)\n    at <unknown> (http://localhost:57313/__cypress/runner/cypress_runner.js:154847:5)\n    at timeslice (http://localhost:57313/__cypress/runner/cypress_runner.js:145082:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 128,
+            "name": "user will go mrr tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ProjectName",
+                      "MeasureFilter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "QAAutomation_HEDIS_TEST",
+                      "W15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 129,
+            "name": "user will filter by project and W15 mesaure",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "user will click on first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "AssignedSucessToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "@me",
+                      "Assigned Successfully."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 133,
+            "name": "user will assign chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "MemberToastMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Member Validation Succeeded"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 136,
+            "name": "user will click on correct member yes button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 139,
+            "name": "user will fill nrc field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 140,
+            "name": "user will click on submit button and will verify chse is submitted",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
