@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dashboardcommand": "cypress run --record --key fff5b7c7-b423-4c53-8186-91ed9ccd13b3"
+    "test": "cypress run --record --parallel --key fff5b7c7-b423-4c53-8186-91ed9ccd13b3"
   },
   "author": "Sanket Maliye",
   "license": "ISC",
