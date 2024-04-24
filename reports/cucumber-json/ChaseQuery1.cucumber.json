@@ -1,0 +1,4736 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "ChaseQuery1",
+    "line": 1,
+    "id": "chasequery1",
+    "tags": [],
+    "uri": "ChaseQuery1.feature",
+    "elements": [
+      {
+        "id": "chasequery1;verify-create-new-chase-_-risk",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify Create New Chase _ Risk",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user will fill encounter details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-encounter-tab-is-available-when-risk-project-is-selected",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Verify that encounter tab is available when Risk project is selected",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user will verify encounter is visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-create-a-chase-for-existing-member",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Verify that user can Create a chase for existing member",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "user will select existing member yes",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "user will fill encounter details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "user will click on chase and verify its created0",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-create-a-chase-for-existing-address-id",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Verify that user can Create a chase for existing address ID",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "user will go to retrievel menu",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "user will click on call center rep",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "user will log aid",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "user will select existing provider adress yes option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "user will fill encounter details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-to-create-a-chase-for-new-provider",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "Verify that to Create a chase for new provider",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 87,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 88,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 98,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "user will fill encounter details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 109,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 110,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-to-create-a-chase-for-new-address-id",
+        "keyword": "Scenario",
+        "line": 112,
+        "name": "Verify that to Create a chase for new address ID",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 113,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 114,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 115,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 116,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 118,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 120,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 124,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 129,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "user will fill encounter details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 135,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 136,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-add-new-encounters-on-encounter-tab",
+        "keyword": "Scenario",
+        "line": 138,
+        "name": "Verify that user can add new encounters on encounter tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 139,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 142,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 143,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 144,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 145,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 146,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 149,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 151,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 154,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 155,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 158,
+            "name": "user will fill encounter details1",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-add-multiple-encounters-from-encounter-tab",
+        "keyword": "Scenario",
+        "line": 233,
+        "name": "Verify that user can add multiple encounters from encounter tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 234,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 235,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 236,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 237,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 238,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 239,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 240,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 241,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 244,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 245,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 246,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 249,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 250,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 253,
+            "name": "user will verify multiple encounter is selected from dropdown",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-provider-can-be-selected-from-the-providers-selected",
+        "keyword": "Scenario",
+        "line": 189,
+        "name": "Verify that provider can be selected from the providers selected",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 190,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 191,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 192,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 193,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 194,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 195,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 196,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 197,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 200,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 201,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 202,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 205,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 206,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 209,
+            "name": "user will verify provider is selected from dropdown",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-encounter-type-can-be-selected-from-the-type-dropdwon",
+        "keyword": "Scenario",
+        "line": 211,
+        "name": "Verify that encounter type can be selected from the type dropdwon",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 212,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 213,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 214,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 215,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 216,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 217,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 218,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 219,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 222,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 223,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 224,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 227,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 228,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 231,
+            "name": "user will verify encounter is selected from dropdown",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-if-the-service-dates-are-outside-project-time-frame-a-validation-message-is-displayed",
+        "keyword": "Scenario",
+        "line": 255,
+        "name": "Verify that if the service dates are outside project time frame a validation message is displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 256,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 257,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 258,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 259,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 260,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 261,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 262,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 263,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 266,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 267,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 268,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 271,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 272,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "04/04/2023",
+                      "04/04/2023",
+                      "A150",
+                      "04/04/2023",
+                      "04/04/2023",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 275,
+            "name": "user will fill encounter details3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 278,
+            "name": "user will verify the warning msg",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-add-diagnosis-from-encounter-tab",
+        "keyword": "Scenario",
+        "line": 280,
+        "name": "Verify that user can add diagnosis from encounter tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 281,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 282,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 283,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 284,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 285,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 286,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 287,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 288,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 291,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 292,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 293,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 296,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 297,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 300,
+            "name": "user will fill encounter details1 and verify next button is enabled",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-thta-user-can-add-multipel-diagnosis-for-the-same-encounter",
+        "keyword": "Scenario",
+        "line": 304,
+        "name": "VErify thta user can add multipel diagnosis for the same encounter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 305,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 306,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 307,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 308,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 309,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 310,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 311,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 312,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 315,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 316,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 317,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 320,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 321,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 324,
+            "name": "user will fill encounter details1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom1",
+                      "serviceDateThru1",
+                      "diagnosis3",
+                      "diagnosis1startDate1",
+                      "diagnosis1thruDate1",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 327,
+            "name": "user will fill multiple encounter details and diagnosis details and after fill next button gets enabled",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-create-chase-with-single-encounter-and-multiple-diagnosis",
+        "keyword": "Scenario",
+        "line": 332,
+        "name": "Verify that user can create chase with single encounter and multiple diagnosis",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 333,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 334,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 335,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 336,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 337,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 338,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 339,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 340,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 343,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 344,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 345,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 348,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 349,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 352,
+            "name": "user will fill encounter details1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom1",
+                      "serviceDateThru1",
+                      "diagnosis3",
+                      "diagnosis1startDate1",
+                      "diagnosis1thruDate1",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 355,
+            "name": "user will fill multiple diagnosis details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 358,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 359,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-create-chase-with-single-encounter-and-single-diagnosis",
+        "keyword": "Scenario",
+        "line": 361,
+        "name": "Verify that user can create chase with single encounter and single diagnosis",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 362,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 363,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 364,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 365,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 366,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 367,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 368,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 369,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 372,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 373,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 374,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 377,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 378,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 381,
+            "name": "user will fill encounter details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 384,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 385,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-validation-message-is-displayed-if-the-dignosis-dates-are-not-falling-in-encounter-dates",
+        "keyword": "Scenario",
+        "line": 387,
+        "name": "VErify that validation message is displayed if the dignosis dates are not falling in encounter dates",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 388,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 389,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 390,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 391,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 392,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 393,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 394,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 395,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 398,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 399,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 400,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 403,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 404,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "04/04/2023",
+                      "04/04/2023",
+                      "A150",
+                      "04/04/2023",
+                      "04/04/2023",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 407,
+            "name": "user will fill encounter details3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 410,
+            "name": "user will verify the warning msg",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-next-step-button-on-encounter-tab-get-enabled-only-after-a-valid-encounter-and-disgnosis-entry",
+        "keyword": "Scenario",
+        "line": 412,
+        "name": "Verify that next step button on encounter tab get enabled only after a valid encounter and disgnosis entry",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 413,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 414,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 415,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 416,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 417,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 418,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 419,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 420,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 423,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 424,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 425,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 428,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 429,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 432,
+            "name": "user will fill encounter details1",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-can-create-a-risk-chase-by-skipping-the-encounter-tab",
+        "keyword": "Scenario",
+        "line": 436,
+        "name": "Verify that user can create a risk chase by skipping the encounter tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 437,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 438,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 439,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 440,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 441,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 442,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 443,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 444,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 447,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 448,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 449,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 452,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 453,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 456,
+            "name": "user will click on Skip step in encounter tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 457,
+            "name": "user will click on Finalize",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 458,
+            "name": "user will click on chase and verify its created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-the-reset-button-on-member-,-aid-,encounter-and-provider-tabs",
+        "keyword": "Scenario",
+        "line": 460,
+        "name": "Verify the reset button on member , aid ,encounter and provider tabs",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 461,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 462,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 463,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 464,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 465,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 466,
+            "name": "user will click on reset",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 467,
+            "name": "user will verify project field get reset",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 468,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 469,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 470,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 471,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 474,
+            "name": "user will click on member reset",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 475,
+            "name": "user will verify member field get reset",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 476,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 479,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 480,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 481,
+            "name": "user will fill provider address1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 484,
+            "name": "user will click on aid reset button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 485,
+            "name": "user will verify provider address filed is reset",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 486,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 489,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 490,
+            "name": "user will fill provider form1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 493,
+            "name": "user will click on Provider reset button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 494,
+            "name": "user will verify provider page gets reset",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 495,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 498,
+            "name": "user will fill encounter details1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 501,
+            "name": "user will click on encounter reset button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 502,
+            "name": "user will verify field is reset",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-that-user-cannot-add-same-claim-ids-in-a-chase",
+        "keyword": "Scenario",
+        "line": 504,
+        "name": "Verify that user cannot add same Claim IDs in a chase",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 505,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 506,
+            "name": "user will select chase queries from sub menu button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 507,
+            "name": "user will select create new chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 508,
+            "name": "user will click on get started",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 509,
+            "name": "user will fill all the details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 510,
+            "name": "user will click on next step",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 511,
+            "name": "user will click on no option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "Dob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Qa automation",
+                      "Testing",
+                      "03/15/1997"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 512,
+            "name": "user will fill member form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 515,
+            "name": "user will click on Add member",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 516,
+            "name": "user will click on no option2",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Address",
+                      "phno"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "newyork",
+                      "8746536763"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 517,
+            "name": "user will fill provider address",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 520,
+            "name": "user will click on no option3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName1",
+                      "lastName1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ADAM",
+                      "SMITH"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 521,
+            "name": "user will fill provider form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom",
+                      "serviceDateThru",
+                      "diagnosis1",
+                      "diagnosis1startDate",
+                      "diagnosis1thruDate",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 524,
+            "name": "user will fill encounter details4",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceDateFrom1",
+                      "serviceDateThru1",
+                      "diagnosis3",
+                      "diagnosis1startDate1",
+                      "diagnosis1thruDate1",
+                      "diagnosis2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A150",
+                      "01/01/2021",
+                      "01/01/2021",
+                      "A156"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 527,
+            "name": "user will fill multiple diagnosis details1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 530,
+            "name": "user will verify claim id error message",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-chase-query-grid--export",
+        "keyword": "Scenario",
+        "line": 532,
+        "name": "Verify Chase Query Grid -Export",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 533,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 534,
+            "name": "user will select chase queries from sub menu button1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 535,
+            "name": "user will select project",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 536,
+            "name": "click on slect next option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 537,
+            "name": "user will click on export functionality",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 538,
+            "name": "user will click on go button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 539,
+            "name": "user will verify downloaded file",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-chase-query-grid--filter",
+        "keyword": "Scenario",
+        "line": 541,
+        "name": "Verify Chase Query Grid -Filter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 542,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 543,
+            "name": "user will select chase queries from sub menu button1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 544,
+            "name": "user will click on assigned to",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "assignedUser"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Testing Admin"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 545,
+            "name": "user will search by assigned user",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 548,
+            "name": "user will verify grid is loaded as per filter",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-chase-query-grid--assigned-to",
+        "keyword": "Scenario",
+        "line": 550,
+        "name": "Verify Chase Query Grid -Assigned to",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 551,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 552,
+            "name": "user will select chase queries from sub menu button1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 553,
+            "name": "user will click on assigned to",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "assignedUser"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Testing Admin"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 554,
+            "name": "user will search by assigned user",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 557,
+            "name": "user will verify grid is loaded as per filter",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chasequery1;verify-chase-query-grid--pend-chases",
+        "keyword": "Scenario",
+        "line": 559,
+        "name": "Verify Chase Query Grid- Pend Chases",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 560,
+            "name": "user will go to queries in menu button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 561,
+            "name": "user will select chase queries from sub menu button1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 562,
+            "name": "user will select project",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 563,
+            "name": "user will select first chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 564,
+            "name": "user will pend chase chase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 565,
+            "name": "verify pend status in grid",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
