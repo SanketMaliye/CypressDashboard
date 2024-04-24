@@ -1,0 +1,14 @@
+{
+  "name": "cypress-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dashboardcommand": "cypress run --record --key fff5b7c7-b423-4c53-8186-91ed9ccd13b3"
+  },
+  "author": "Sanket Maliye",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.8.1"
+  }
+}
